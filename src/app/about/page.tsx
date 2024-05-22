@@ -69,16 +69,16 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            I’m Murdo. I live in Edinburgh, where I work at Stampede.
+            I&apos;m Murdo. I live in Edinburgh, where I work at Stampede.
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I'm Murdo. A tech enthusiast with a journey that started at 17. Over the years, I've evolved from a support role into account management and now excel in sales. My passion for technology drives my professional growth, and I'm dedicated to staying ahead in this ever-changing field.
+              I&apos;m Murdo. A tech enthusiast with a journey that started at 17. Over the years, I&apos;ve evolved from a support role into account management and now excel in sales. My passion for technology drives my professional growth, and I&apos;m dedicated to staying ahead in this ever-changing field.
             </p>
             <p>
-              When I'm not immersed in the tech world, you'll find me enjoying sports, exploring the great outdoors, or indulging in my love for cars. Whether it's hitting the trails, catching a game, or admiring automotive craftsmanship, I believe in living life to the fullest.
+              When I&apos;m not immersed in the tech world, you&apos;ll find me enjoying sports, exploring the great outdoors, or indulging in my love for cars. Whether it&apos;s hitting the trails, catching a game, or admiring automotive craftsmanship, I believe in living life to the fullest.
             </p><br></br>
-            Thanks for stopping by my website! Whether you're here to learn more about my professional journey or share a passion. I'm glad you're here.
+            Thanks for stopping by my website! Whether you&apos;re here to learn more about my professional journey or share a passion. I&apos;m glad you&apos;re here.
             <p>
 
             </p>
