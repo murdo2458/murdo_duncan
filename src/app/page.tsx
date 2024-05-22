@@ -267,23 +267,23 @@ export default async function Home() {
             Sales lead, tech enthusiast, and lifelong learner.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Im Murdo, a sales manager and tech enthusiast based in Edinburgh. Im currently at Stampede, where we develop
+            I'm Murdo, a sales manager and tech enthusiast based in Edinburgh. I'm currently at Stampede, where we develop
             technologies that empower hospitality businesses to deliver exceptional experiences for their guests.
           </p>
           <div className="mt-6 flex gap-6">
-            <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />
+            {/* <SocialLink href="#" aria-label="Follow on X" icon={XIcon} /> */}
             <SocialLink
-              href="#"
+              href="https://www.instagram.com/__murdo_/"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
             <SocialLink
-              href="#"
+              href="https://github.com/murdo2458"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="#"
+              href="https://uk.linkedin.com/in/murdo-duncan-3ba958143"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />

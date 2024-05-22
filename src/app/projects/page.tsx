@@ -3,48 +3,48 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoLoyalty from '@/images/logos/loyalty.png'
+import logoBooking from '@/images/logos/booking.png'
+import logoWiFi from '@/images/logos/wifi.png'
+import logoBoo from '@/images/logos/boo.png'
+
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'Table Management',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
+      'Solving the problem of dated booking experience and backend management for hospitality venues.',
+    link: { href: 'https://stampede.ai/get-bookings', label: 'Get Bookings' },
+    logo: logoBooking,
   },
   {
-    name: 'Animaginary',
+    name: 'Guest WiFi',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
+      'Our first mark on the world. Beatifully branded and lightning fast performing captive portals.',
+    link: { href: 'https://stampede.ai/how-it-works/wifi', label: 'WiFi' },
+    logo: logoWiFi,
   },
   {
-    name: 'HelioStream',
+    name: 'Digital Loyalty',
     description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
+      'A Fresh Look at Customer Loyalty For Hospitality',
+    link: { href: 'https://stampede.ai/loyalty-waitlist', label: 'Loyalty' },
+    logo: logoLoyalty,
   },
   {
-    name: 'cosmOS',
+    name: 'Boo. BLACK',
     description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
+      'VIP club for the fastest growing fast-food franchise in the UK.',
+    link: { href: 'https://boo-burger.com/', label: 'Boo. Burger' },
+    logo: logoBoo,
   },
-  {
-    name: 'OpenShuttle',
-    description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
-  },
+  // {
+  //   name: 'OpenShuttle',
+  //   description:
+  //     'The schematics for the first rocket I designed that successfully made it to orbit.',
+  //   link: { href: '#', label: 'github.com' },
+  //   logo: logoOpenShuttle,
+  // },
 ]
 
 function LinkIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
@@ -67,7 +67,7 @@ export default function Projects() {
   return (
     <SimpleLayout
       title="Things I’ve made trying to put my dent in the universe."
-      intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+      intro="I’ve worked on tons of projects over the years mostly as part of the remarkable team at Stampede. These are some of my favourites."
     >
       <ul
         role="list"
