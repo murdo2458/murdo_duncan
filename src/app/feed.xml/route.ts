@@ -11,7 +11,7 @@ export async function GET(req: Request) {
 
   let author = {
     name: 'Murdo Duncan',
-    email: 'spencer@planetaria.tech',
+    email: 'murdo.duncan@stampede.ai',
   }
 
   let feed = new Feed({
@@ -21,7 +21,7 @@ export async function GET(req: Request) {
     id: siteUrl,
     link: siteUrl,
     image: `${siteUrl}/favicon.ico`,
-    favicon: `${siteUrl}/favicon.ico`,
+    favicon: `${siteUrl}favicon.ico`,
     copyright: `All rights reserved ${new Date().getFullYear()}`,
     feedLinks: {
       rss2: `${siteUrl}/feed.xml`,

@@ -9,10 +9,10 @@ export const metadata: Metadata = {
   title: {
     template: '%s - Murdo Duncan',
     default:
-      'Murdo Duncan - Software designer, founder, and amateur astronaut',
+      'Murdo Duncan - Sales lead, tech enthusiast, and lifelong learner.',
   },
   description:
-    'I’m Spencer, a software designer and entrepreneur based in Edinburgh City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.',
+    'I’m Murdoa sales manager and tech enthusiast based in Edinburgh. I&apos;m currently at Stampede, where we develop technologies that empower hospitality businesses to deliver exceptional experiences for their guests.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
