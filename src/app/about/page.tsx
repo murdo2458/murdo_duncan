@@ -76,7 +76,7 @@ export default function About() {
               I&apos;m Murdo. A tech enthusiast with a journey that started at 17. Over the years, I&apos;ve evolved from a support role into account management and now excel in sales. My passion for technology drives my professional growth, and I&apos;m dedicated to staying ahead in this ever-changing field.
             </p>
             <p>
-              When I&apos;m not immersed in the tech world, you&apos;ll find me enjoying sports, exploring the great outdoors, or indulging in my love for cars. Whether it&apos;s hitting the trails, catching a game, or admiring automotive craftsmanship, I believe in living life to the fullest.
+              When I&apos;m not immersed in the tech world, you&apos;ll find me enjoying sports, exploring the great outdoors, or working on an old VW.
             </p><br></br>
             Thanks for stopping by my website! Whether you&apos;re here to learn more about my professional journey or share a passion. I&apos;m glad you&apos;re here.
             <p>
