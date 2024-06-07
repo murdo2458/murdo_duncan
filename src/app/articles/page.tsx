@@ -45,8 +45,7 @@ export default async function ArticlesIndex() {
 
   return (
     <SimpleLayout
-      title="Writing on sales, team building, and tech."
-      intro="All of my long-form thoughts on leadership, tech and everything inbetween."
+      title="My (fairly limited) writing mostly on tech and hospitality"
     >
       <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
         <div className="flex max-w-3xl flex-col space-y-16">
