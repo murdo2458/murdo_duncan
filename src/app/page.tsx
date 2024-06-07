@@ -189,7 +189,7 @@ function Resume() {
       company: 'Stampede',
       title: 'Sales Team Lead',
       logo: logoStampede,
-      start: '2023',
+      start: '2022',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear().toString(),
@@ -199,7 +199,7 @@ function Resume() {
       company: 'Stampede',
       title: 'Customer Success Manager',
       logo: logoStampede,
-      start: '2018',
+      start: '2017',
       end: '2022',
     },
     {

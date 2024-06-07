@@ -45,7 +45,7 @@ export default async function ArticlesIndex() {
 
   return (
     <SimpleLayout
-      title="My (fairly limited) writing mostly on tech and hospitality"
+      title="My (fairly limited) writing mostly on tech in hospitality"
       intro=""
     >
       <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
