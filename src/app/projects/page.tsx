@@ -14,7 +14,7 @@ const projects = [
     name: 'Table Management',
     description:
       'Solving the problem of dated booking experience and backend management for hospitality venues.',
-    link: { href: 'https://stampede.ai/get-bookings', label: 'Get Bookings' },
+    link: { href: 'https://stampede.ai/get-bookings' , label: 'Get Bookings' },
     logo: logoBooking,
   },
   {

@@ -222,8 +222,8 @@ function Resume() {
           <Role key={roleIndex} role={role} />
         ))}
       </ol>
-      <Button href="#" variant="secondary" className="group mt-6 w-full">
-        Download CV
+      <Button href="https://www.linkedin.com/in/murdo-duncan-3ba958143/" variant="secondary" className="group mt-6 w-full" target="_blank">
+        Learn More
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>
     </div>
@@ -277,16 +277,19 @@ export default async function Home() {
             {/* <SocialLink href="#" aria-label="Follow on X" icon={XIcon} /> */}
             <SocialLink
               href="https://www.instagram.com/__murdo_/"
+              target="_blank"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
             <SocialLink
               href="https://github.com/murdo2458"
+              target="_blank"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
               href="https://uk.linkedin.com/in/murdo-duncan-3ba958143"
+              target="_blank"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
