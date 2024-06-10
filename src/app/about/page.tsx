@@ -73,13 +73,11 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I&apos;m Murdo. A tech enthusiast with a journey that started at 17. Over the years, I&apos;ve evolved from a support role into account management and now excel in sales. My passion for technology drives my professional growth, and I&apos;m dedicated to staying ahead in this ever-changing field.
-            </p>
-            <p>
-              When I&apos;m not immersed in the tech world, you&apos;ll find me enjoying sports, exploring the great outdoors, or working on an old VW.
-            </p><br></br>
-            Thanks for stopping by my website! Whether you&apos;re here to learn more about my professional journey or share a passion. I&apos;m glad you&apos;re here.
-            <p>
+            I&apos;m Murdo. I&apos;ve been working at a tech startup from the early days since I was 17 years old. Over the years I&apos;ve done it all, evolving from a support role into account management and now performing in sales. My passion for technology has bled into a love for the hospitality industry which I believe tech can revolutionise.
+<br></br><br></br>
+When I&apos;m not immersed in this world, I play basketball, love camping or working on an old VW. The only thing I&apos;m more passionate about is probably early 2000&apos;s German cars.
+<br></br><br></br>
+Thanks for visiting the site. I worked for way longer than I should have on the light mode/dark mode button so please try it.
 
             </p>
           </div>
@@ -99,11 +97,11 @@ export default function About() {
               Follow on LinkedIn
             </SocialLink>
             <SocialLink
-              href="mailto:murdo.duncan@stampede.ai"
+              href="mailto:murdo124@gmail.com"
               icon={MailIcon}
               className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
             >
-              murdo.duncan@stampede.ai
+              murdo124@gmail.com
             </SocialLink>
           </ul>
         </div>
