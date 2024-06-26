@@ -7,6 +7,7 @@ import logoLoyalty from '@/images/logos/loyalty.png'
 import logoBooking from '@/images/logos/booking.png'
 import logoWiFi from '@/images/logos/wifi.png'
 import logoBoo from '@/images/logos/boo.png'
+import logoOpenAI from '@/images/logos/OpenaiLogo.svg'
 
 
 const projects = [
@@ -14,7 +15,7 @@ const projects = [
     name: 'Table Management',
     description:
       'Solving the problem of dated booking experience and backend management for hospitality venues.',
-    link: { href: 'https://stampede.ai/get-bookings' , label: 'Get Bookings' },
+    link: { href: 'https://stampede.ai/get-bookings', label: 'Get Bookings' },
     logo: logoBooking,
   },
   {
@@ -38,13 +39,13 @@ const projects = [
     link: { href: 'https://boo-burger.com/', label: 'Boo. Burger' },
     logo: logoBoo,
   },
-  // {
-  //   name: 'OpenShuttle',
-  //   description:
-  //     'The schematics for the first rocket I designed that successfully made it to orbit.',
-  //   link: { href: '#', label: 'github.com' },
-  //   logo: logoOpenShuttle,
-  // },
+  {
+    name: 'OpenAI Chatbot',
+    description:
+      'Small personal project to learn more about the OpenAI API. Customise and chat with GPT-4o directly.',
+    link: { href: 'https://openai-chat-orcin.vercel.app/', label: 'Chat' },
+    logo: logoOpenAI,
+  },
 ]
 
 function LinkIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
@@ -60,13 +61,13 @@ function LinkIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 
 export const metadata: Metadata = {
   title: 'Projects',
-  description: 'Things I’ve made trying to put my dent in the universe.',
+  description: 'Things I’ve worked on.',
 }
 
 export default function Projects() {
   return (
     <SimpleLayout
-      title="Things I’ve made trying to put my dent in the universe."
+      title="Things I’ve made."
       intro="I’ve worked on tons of projects over the years as part of the remarkable team at Stampede. These are some of my favourites."
     >
       <ul
