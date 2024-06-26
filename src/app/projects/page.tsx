@@ -15,35 +15,35 @@ const projects = [
     name: 'Table Management',
     description:
       'Solving the problem of dated booking experience and backend management for hospitality venues.',
-    link: { href: 'https://stampede.ai/get-bookings', label: 'Get Bookings' },
+    link: { href: 'https://stampede.ai/get-bookings', target: '_blank', label: 'Get Bookings' },
     logo: logoBooking,
   },
   {
     name: 'Guest WiFi',
     description:
       'Our first mark on the world. Beatifully branded and lightning fast performing captive portals.',
-    link: { href: 'https://stampede.ai/how-it-works/wifi', label: 'WiFi' },
+    link: { href: 'https://stampede.ai/how-it-works/wifi', target: '_blank', label: 'WiFi' },
     logo: logoWiFi,
   },
   {
     name: 'Digital Loyalty',
     description:
       'A Fresh Look at Customer Loyalty For Hospitality',
-    link: { href: 'https://stampede.ai/loyalty-waitlist', label: 'Loyalty' },
+    link: { href: 'https://stampede.ai/loyalty-waitlist', target: '_blank', label: 'Loyalty' },
     logo: logoLoyalty,
   },
   {
     name: 'Boo. BLACK',
     description:
       'VIP club for the fastest growing fast-food franchise in the UK.',
-    link: { href: 'https://boo-burger.com/', label: 'Boo. Burger' },
+    link: { href: 'https://boo-burger.com/', target: '_blank', label: 'Boo. Burger' },
     logo: logoBoo,
   },
   {
     name: 'OpenAI Chatbot',
     description:
       'Small personal project to learn more about the OpenAI API. Customise and chat with GPT-4o directly.',
-    link: { href: 'https://openai-chat-orcin.vercel.app/', label: 'Chat' },
+    link: { href: 'https://openai-chat-orcin.vercel.app/', target: '_blank', label: 'Chat' },
     logo: logoOpenAI,
   },
 ]
