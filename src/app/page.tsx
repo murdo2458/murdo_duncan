@@ -200,9 +200,7 @@ function Resume() {
       title: 'Account Executive',
       logo: logoStampede,
       start: '2021',
-      end: {
-        label: '2022',
-      },
+      end: '2022',
     },
     {
       company: 'Stampede',
