@@ -8,9 +8,31 @@ import logoBooking from '@/images/logos/booking.png'
 import logoWiFi from '@/images/logos/wifi.png'
 import logoBoo from '@/images/logos/boo.png'
 import logoOpenAI from '@/images/logos/OpenaiLogo.svg'
+import calorieAI from '@/images/logos/calorieAI.png'
 
 
 const projects = [
+  {
+    name: 'Boo. BLACK',
+    description:
+      'VIP club for the fastest growing fast-food franchise in the UK.',
+    link: { href: 'https://boo-burger.com/', target: '_blank', label: 'Boo. Burger' },
+    logo: logoBoo,
+  },
+  {
+    name: 'OpenAI Chatbot',
+    description:
+      'Small personal project to learn more about the OpenAI API. Customise and chat with GPT-4o directly.',
+    link: { href: 'https://openai-chat-orcin.vercel.app/', target: '_blank', label: 'Chat' },
+    logo: logoOpenAI,
+  },
+  {
+    name: 'Calorie AI',
+    description:
+      'A more complex project, allowing a user to upload an image of a meal and have the nutritional contents analysed. Also interacting with OpenAI. ',
+    link: { href: 'https://ai-image-describe.vercel.app//', target: '_blank', label: 'Chat' },
+    logo: calorieAI,
+  },
   {
     name: 'Table Management',
     description:
@@ -32,20 +54,7 @@ const projects = [
     link: { href: 'https://stampede.ai/loyalty-waitlist', target: '_blank', label: 'Loyalty' },
     logo: logoLoyalty,
   },
-  {
-    name: 'Boo. BLACK',
-    description:
-      'VIP club for the fastest growing fast-food franchise in the UK.',
-    link: { href: 'https://boo-burger.com/', target: '_blank', label: 'Boo. Burger' },
-    logo: logoBoo,
-  },
-  {
-    name: 'OpenAI Chatbot',
-    description:
-      'Small personal project to learn more about the OpenAI API. Customise and chat with GPT-4o directly.',
-    link: { href: 'https://openai-chat-orcin.vercel.app/', target: '_blank', label: 'Chat' },
-    logo: logoOpenAI,
-  },
+
 ]
 
 function LinkIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
@@ -68,7 +77,7 @@ export default function Projects() {
   return (
     <SimpleLayout
       title="Things I’ve made."
-      intro="I’ve worked on tons of projects over the years as part of the remarkable team at Stampede. These are some of my favourites."
+      intro="I’ve worked on tons of projects over the years some as part of the remarkable team at Stampede. These are some of my favourites."
     >
       <ul
         role="list"

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       'Murdo Duncan - Sales lead, tech enthusiast, and lifelong learner.',
   },
   description:
-    'I’m Murdoa sales manager and tech enthusiast based in Edinburgh. I&apos;m currently at Stampede, where we develop technologies that empower hospitality businesses to deliver exceptional experiences for their guests.',
+    'I’m Murdo a sales manager and tech enthusiast based in Edinburgh. I&apos;m currently at Stampede, where we develop technologies that empower hospitality businesses to deliver exceptional experiences for their guests.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
