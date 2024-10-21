@@ -116,7 +116,7 @@ function MobileNavigation(
           <PopoverOverlay className="fixed inset-0 z-50 bg-zinc-800/40 backdrop-blur-sm dark:bg-black/80" />
         </TransitionChild>
         <TransitionChild
-          enter="duration-150 ease-out" t
+          enter="duration-150 ease-out"
           enterFrom="opacity-0 scale-95"
           enterTo="opacity-100 scale-100"
           leave="duration-150 ease-in"
