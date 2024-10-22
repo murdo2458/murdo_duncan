@@ -13,13 +13,6 @@ import calorieAI from '@/images/logos/calorieAI.png'
 
 const projects = [
   {
-    name: 'Boo. BLACK',
-    description:
-      'VIP club for the fastest growing fast-food franchise in the UK.',
-    link: { href: 'https://boo-burger.com/', target: '_blank', label: 'Boo. Burger' },
-    logo: logoBoo,
-  },
-  {
     name: 'OpenAI Chatbot',
     description:
       'Small personal project to learn more about the OpenAI API. Customise and chat with GPT-4o directly.',
@@ -32,6 +25,13 @@ const projects = [
       'A more complex project, allowing a user to upload an image of a meal and have the nutritional contents analysed. Also interacting with OpenAI. ',
     link: { href: 'https://ai-image-describe.vercel.app//', target: '_blank', label: 'Chat' },
     logo: calorieAI,
+  },
+  {
+    name: 'Boo. BLACK',
+    description:
+      'VIP club for the fastest growing fast-food franchise in the UK.',
+    link: { href: 'https://boo-burger.com/', target: '_blank', label: 'Boo. Burger' },
+    logo: logoBoo,
   },
   {
     name: 'Table Management',
